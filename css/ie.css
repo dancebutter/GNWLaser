@@ -1,0 +1,4 @@
+h4 { font-size: 21px; }
+li a img {border:0;}
+.flex-direction-nav .flex-next {background-position: 100% 0; right: 25px; }
+.flex-direction-nav .flex-prev {left: 25px;}

@@ -1,0 +1,88 @@
+a { color:#e4b132; font-style:italic; font-family:Arial, Helvetica, sans-serif ;text-decoration: none; line-height: inherit; }
+a:hover { color:#e4b132; }
+a:focus { color:#cc9e2b; outline: none; }
+
+.camera_caption {color: #cc9e2b;}
+
+.header{ border-top:5px solid #cc9e2b;}
+.header h2 a{color:#cc9e2b;}
+table thead, table tfoot { background:#fbcf62; }
+table tbody tr.even, table tbody tr.alt { background: #fbf8f0; }
+table tbody tr:nth-child(even) { background: #fbf8f0; }
+.section_divider_title {color:#cc9e2b;}
+
+dl.tabs dd.active { border-top: 1px solid #cc9e2b;}
+
+dl.tabs.pill dd.active a { background-color: #e4b132;}
+
+/* Pagination ---------------------- */
+ul.pagination { display: block; height: 24px; margin-left: -5px; }
+ul.pagination li { float: left; display: block; height: 24px; color: #999; font-size: 14px; margin-left: 5px;}
+ul.pagination li a { display: block; padding: 1px 7px 1px; color: #555; }
+ul.pagination li:hover a, ul.pagination li a:focus { background: #cc9e2b; }
+ul.pagination li.unavailable a { cursor: default; color: #999; }
+ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus { background: transparent; }
+ul.pagination li.current a { background: #cc9e2b; color: #333; font-weight: bold; cursor: default; }
+ul.pagination li.current a:hover { background: #2ba6cb; }
+
+nav ul.toplevel li:hover:after {
+	border-color: transparent transparent #fbcf62 transparent;
+}
+
+nav ul.toplevel li ul.submenu, nav ul.toplevel li ul.submenu_rt {
+	border-top: 3px solid #fbcf62;
+	border-bottom: 3px solid #fbcf62;
+}
+
+nav ul.toplevel li:hover ul.submenu {
+	background: #fbcf62;
+}
+
+nav ul.toplevel li:hover ul.submenu_rt {
+	background: #fbcf62;
+}
+
+nav ul.toplevel li ul.submenu li, nav ul.toplevel li ul.submenu_rt li {
+	border-bottom: 1px dotted #cfa948;
+}
+
+nav ul.toplevel li ul.submenu li:hover, nav ul.toplevel li ul.submenu_rt li:hover {
+	background: #e8bf5a;
+}
+
+nav ul.toplevel li ul.submenu li a:hover, nav ul.toplevel li ul.submenu_rt li a:hover {
+	background: #e8bf5a;
+}
+
+nav ul.toplevel li ul.submenu li ul.subsubmenu {
+	border-top: 3px solid #fbcf62;
+	border-bottom: 3px solid #fbcf62;
+}
+
+nav ul.toplevel li ul.submenu li:hover ul.subsubmenu {
+	background: #fbcf62;
+}
+
+nav ul.toplevel li ul.submenu_rt li ul.subsubmenu_rt {
+	border-top: 3px solid #fbcf62;
+	border-bottom: 3px solid #fbcf62;
+}
+
+nav ul.toplevel li ul.submenu_rt li:hover ul.subsubmenu_rt {
+	background: #fbcf62;
+}
+
+div.panel.callonaction  .button { background: #f2bf40 url(../../images/overlay10.png);}
+div.panel.callonaction  .button:hover { background: #333 url(../../images/overlay10.png); color:#fff}
+
+.footer h4 {color:#cc9e2b;}
+.footer li{ color:#696868;}
+.footer p{ color:#696868;}
+.footer li a{ color:#cc9e2b;}
+
+.button.dropdown > ul li:hover { background-color: #feecbd; color: #242424; }
+
+p.breadcrumb {color:#cc9e2b;}
+.row.portfolio img:hover{ background: #cc9e2b url(http://themes.audemedia.com/html/yellowknife/css/images/overlay10.png); }
+
+div.panel.yellow { background: #cc9e2b url(http://themes.audemedia.com/html/yellowknife/css/images/overlay10.png); color: #333; border-color: #b9bdbe; border-top:none;  -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5); padding:8px;}
